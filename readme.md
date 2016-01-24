@@ -178,7 +178,7 @@ Now, you'll see striped rows table inside your browser like this:
 
 ### Step #4 - Update Links To Buttons Inside The Table
 
-Let's start by moving the `New Idea` link at the bottom to the top of the page, belo the `Listing Ideas` heading like this:
+Let's start by moving the `New Idea` link at the bottom to the top of the page, below the `Listing Ideas` heading like this:
 
 ```
 <h1>Listing Ideas</h1>
@@ -217,7 +217,7 @@ Yes we can!
 
 FYI, Bootstrap offers many [colour options for us!](http://getbootstrap.com/css/#buttons-options)
 
-So, let's us them.
+So, let's use them.
 
 - For `Show` button, use `btn btn-success`
 - For `Edit` button, use `btn btn-warning`
@@ -297,7 +297,7 @@ Now, open your browser and you'll see this:
 
 ![](images/13.png)
 
-What we're doing here now is, we're hard-coded a set of example data to see how our Bootstrap grid will looks inside the 9 + 3 columns that we planned earlier.
+What we're doing here now is, we're hard-coding a set of example data to see how our Bootstrap grid will looks inside the 9 + 3 columns that we planned earlier.
 
 As you can see above, `Example Name` and `Example description` are both place inside left side (marked `1` and `2`) and `Picture` is placed on the right side (marked `3`).
 
@@ -396,7 +396,7 @@ As you can see, we now have 4 Bootstrap inputs:
 3. Picture
 4. Submit button (let's called it `Save Idea` button)
 
-Let's remove old inputs first:
+Let's remove old fields first:
 
 ```
 <div class="field">
